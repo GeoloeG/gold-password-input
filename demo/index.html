@@ -15,35 +15,50 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
 
-  <title>gold-email-input demo</title>
+  <title>gold-password-input demo</title>
 
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../gold-email-input.html">
+  <link rel="import" href="../gold-password-input.html">
 
   <link rel="stylesheet" href="../../paper-styles/paper-styles.html">
   <link rel="import" href="../../paper-styles/demo-pages.html">
 
 </head>
+
 <body unresolved>
+
   <div class="vertical-section-container centered">
     <h4>Standard</h4>
     <div class="vertical-section">
-      <gold-email-input></gold-email-input>
-      <gold-email-input label="Auto-validating" required auto-validate></gold-email-input>
+      <gold-password-input></gold-password-input>
+      <gold-password-input 
+        label="Auto-validating" 
+        required 
+        auto-validate
+        >
+      </gold-password-input>
     </div>
 
-    <h4>Pre-validated</h4>
+    <h4>With Strength Meter</h4>
     <div class="vertical-section">
-      <gold-email-input auto-validate value="batman@gotham.org"></gold-email-input>
-      <gold-email-input auto-validate value="not-a-thing.email"></gold-email-input>
-      <gold-email-input auto-validate label="custom regex, needs to ends in .cat"
-          regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.cat$'
-          value="felix@meow.car"></gold-email-input>
+      <gold-password-input
+        label="With strength-meter"
+        strength-meter
+        >
+      </gold-password-input>
+      <gold-password-input 
+        label="With strength-meter, auto-validate, (min/max)-length"
+        auto-validate
+        min-length="6" 
+        max-length="24" 
+        >
+      </gold-password-input>
     </div>
 
     <h4>Custom error message, auto-validates on blur</h4>
     <div class="vertical-section">
-      <gold-email-input required auto-validate error-message="Please enter a valid email" label="Email contact"></gold-email-input>
+      <gold-password-input required auto-validate error-message="Please enter a valid password" label="password contact"></gold-password-input>
     </div>
   </div>
+
 </body>
