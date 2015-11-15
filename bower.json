@@ -1,6 +1,6 @@
 {
   "name": "gold-password-input",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A password input field",
   "authors": [
     "Pascal Gula aka MeTaNoV"
@@ -22,15 +22,16 @@
   "homepage": "https://github.com/MeTaNoV/gold-password-input",
   "ignore": [],
   "dependencies": {
-    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.0",
-    "paper-input": "PolymerElements/paper-input#^1.0.0",
-    "polymer": "Polymer/polymer#^1.0.0"
+    "polymer": "Polymer/polymer#^1.2.1",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.5",
+    "paper-input": "PolymerElements/paper-input#^1.0.18",
+    "zxcvbn": "zxcvbn#^4.2.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
-    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
-    "web-component-tester": "*",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.15",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.9",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.6",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.3",
+    "web-component-tester": "^3.4.0"
   }
 }
