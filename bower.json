@@ -25,6 +25,7 @@
     "polymer": "Polymer/polymer#^1.2.1",
     "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.5",
     "paper-input": "PolymerElements/paper-input#^1.0.18",
+    "paper-tooltip": "PolymerElements/paper-tooltip#^1.1.1",
     "zxcvbn": "zxcvbn#^4.2.0"
   },
   "devDependencies": {

@@ -32,9 +32,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="vertical-section">
       <gold-password-input></gold-password-input>
       <gold-password-input 
-        label="Auto-validating" 
+        label="Auto-validating required" 
         required 
         auto-validate
+        >
+      </gold-password-input>
+      <gold-password-input 
+        label="Auto-validating required" 
+        auto-validate
+        min-length="6" 
         >
       </gold-password-input>
     </div>
@@ -51,13 +57,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         auto-validate
         min-length="6" 
         max-length="24" 
+        strength-meter
         >
       </gold-password-input>
     </div>
 
     <h4>Custom error message, auto-validates on blur</h4>
     <div class="vertical-section">
-      <gold-password-input required auto-validate error-message="Please enter a valid password" label="password contact"></gold-password-input>
+      <gold-password-input 
+        required 
+        auto-validate 
+        min-length="6" 
+        error-message="Please enter a valid password" 
+        label="password contact"
+        >
+      </gold-password-input>
     </div>
   </div>
 
