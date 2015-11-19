@@ -34,7 +34,6 @@
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.15",
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.9",
     "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.6",
-    "test-fixture": "PolymerElements/test-fixture#^1.0.3",
     "web-component-tester": "^3.4.0"
   }
 }
