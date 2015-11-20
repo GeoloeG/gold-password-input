@@ -6,7 +6,7 @@ module.exports = {
     },
     sauce: {
       disabled: true,
-      browsers: ['chrome', 'firefox']
+      browsers: ['firefox']
     }
   }
 };
