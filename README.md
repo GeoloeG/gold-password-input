@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
 
 ## &lt;gold-password-input&gt;
 
