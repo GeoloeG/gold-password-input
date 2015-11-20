@@ -1,37 +1,33 @@
 
-<!---
+## &lt;gold-password-input&gt;
 
-This README is automatically generated from the comments in these files:
-gold-password-input.html
+`<gold-password-input>` is a single-line text field with Material Design styling for entering a password.
 
-Edit those files, and our readme bot will duplicate them over here!
-Edit this file, and the bot will squash your changes :)
+    <gold-password-input></gold-password-input>
 
--->
+It may include a Strength Meter based on [zxcvbn](https://github.com/dropbox/zxcvbn)
 
-[![Build Status](https://travis-ci.org/PolymerElements/gold-email-input.svg?branch=master)](https://travis-ci.org/PolymerElements/gold-email-input)
+    <gold-password-input strength-meter></gold-password-input>
 
-_[Demo and API Docs](https://elements.polymer-project.org/elements/gold-email-input)_
+It may include an optional label, which by default is "Password".
 
+    <gold-password-input label="Account Password"></gold-password-input>
 
-##&lt;gold-email-input&gt;
+It may include a minLength and maxLength to restrict the length of the password
 
+    <gold-password-input min-length="6" max-length="24"></gold-password-input>
 
-`<gold-email-input>` is a single-line text field with Material Design styling
-for entering an email address.
-
-    <gold-email-input></gold-email-input>
-
-It may include an optional label, which by default is "Email".
-
-    <gold-email-input label="your email address"></gold-email-input>
+See `Polymer.PaperInputBehavior` for more API docs.
 
 ### Validation
 
-The input can be automatically validated as the user is typing by using
-the `auto-validate` and `required` attributes. For manual validation, the
-element also has a `validate()` method, which returns the validity of the
-input as well sets any appropriate error messages and styles.
+It may include a pattern to validate the password.
+
+    <gold-password-input pattern="[a-zA-Z1-9!/;:]*"></gold-password-input>
+
+or use a validator as specified in `Polymer.PaperInputBehavior`
+
+The input can be automatically validated as the user is typing by using the `auto-validate` and `required` attributes. For manual validation, the element also has a `validate()` method, which returns the validity of the input as well as sets any appropriate error messages and styles.
 
 See `Polymer.PaperInputBehavior` for more API docs.
 
@@ -39,5 +35,4 @@ See `Polymer.PaperInputBehavior` for more API docs.
 
 See `Polymer.PaperInputContainer` for a list of custom properties used to
 style this element.
-
 

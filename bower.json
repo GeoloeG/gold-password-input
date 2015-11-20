@@ -1,7 +1,7 @@
 {
   "name": "gold-password-input",
-  "version": "0.1.0",
-  "description": "A password input field",
+  "version": "0.2.0",
+  "description": "A password input field with optional strength meter addon",
   "authors": [
     "Pascal Gula aka MeTaNoV"
   ],
@@ -10,10 +10,12 @@
     "polymer",
     "gold",
     "password",
-    "input"
+    "input",
+    "strength",
+    "meter"
   ],
   "main": "gold-password-input.html",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/MeTaNoV/gold-password-input.git"
@@ -22,18 +24,18 @@
   "homepage": "https://github.com/MeTaNoV/gold-password-input",
   "ignore": [],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.2.1",
-    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.5",
-    "iron-icon": "PolymerElements/iron-icon#^1.0.7",
-    "paper-input": "PolymerElements/paper-input#^1.0.18",
-    "paper-tooltip": "PolymerElements/paper-tooltip#^1.1.1",
-    "paper-styles": "PolymerElements/paper-styles#^1.0.12",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "paper-input": "PolymerElements/paper-input#^1.0.0",
+    "paper-tooltip": "PolymerElements/paper-tooltip#^1.1.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0",
     "zxcvbn": "zxcvbn#^4.2.0"
   },
   "devDependencies": {
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.15",
-    "iron-component-page": "PolymerElements/iron-component-page#^1.0.9",
-    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.6",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
     "web-component-tester": "^3.4.0"
   }
 }
