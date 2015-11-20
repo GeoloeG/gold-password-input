@@ -63,12 +63,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         assert.isFalse(container.invalid);
 
         var error = Polymer.dom(input.root).querySelector('paper-input-error');
-        assert.ok(error, 'paper-input-error exists');
-        assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
+        assert.notOk(error, 'paper-input-error does not exists');
+        //assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
 
         var strengthMeter = Polymer.dom(input.root).querySelector('gold-password-input-strength-meter');
-        assert.ok(error, 'gold-password-input-strength-meter exists');
-        assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
+        assert.notOk(error, 'gold-password-input-strength-meter does not exists');
+        //assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
       });
 
       // TODO PG: finish the tests starting from here... 
