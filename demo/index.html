@@ -18,11 +18,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <title>gold-password-input demo</title>
 
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
   <link rel="import" href="../gold-password-input.html">
+  <link rel="import" href="../gold-password-input-validator.html">
 
   <link rel="stylesheet" href="../../paper-styles/paper-styles.html">
   <link rel="import" href="../../paper-styles/demo-pages.html">
-
 </head>
 
 <body unresolved>
@@ -31,16 +32,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <h4>Standard</h4>
     <div class="vertical-section">
       <gold-password-input></gold-password-input>
+    </div>
+
+    <h4>With Validation</h4>
+    <div class="vertical-section">
       <gold-password-input 
-        label="Auto-validating required" 
+        label='minlength="6", maxlength="24"'
         required 
-        auto-validate
+        auto-validate 
+        minlength="6" 
+        maxlength="24"
+        error-message="The password must contain at least 6 characters" 
         >
       </gold-password-input>
+
+      <gold-password-input-validator
+        pattern="[a-zA-Z0-9]*">
+      </gold-password-input-validator>
       <gold-password-input 
-        label="Auto-validating required" 
-        auto-validate
-        minlength="6" 
+        label='character restriction'
+        required 
+        auto-validate 
+        validator="gold-password-input-validator"
+        error-message="The password must only contains letters and digits" 
         >
       </gold-password-input>
     </div>
@@ -58,21 +72,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         minlength="6" 
         maxlength="24" 
         strength-meter
+        error-message="The password must only contains letters and digits" 
         >
       </gold-password-input>
     </div>
 
-    <h4>Custom error message, auto-validates on blur</h4>
-    <div class="vertical-section">
-      <gold-password-input 
-        required 
-        auto-validate 
-        minlength="6" 
-        error-message="Please enter a valid password" 
-        label="password contact"
-        >
-      </gold-password-input>
-    </div>
   </div>
 
 </body>
