@@ -1,12 +1,14 @@
 {
   "name": "gold-password-input",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A password input field with optional strength meter addon",
   "authors": [
     "Pascal Gula aka MeTaNoV"
   ],
   "keywords": [
     "web-components",
+    "custom",
+    "element",
     "polymer",
     "gold",
     "password",
