@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
+[![Dependency Status](https://gemnasium.com/MeTaNoV/gold-password-input.svg)](https://gemnasium.com/MeTaNoV/gold-password-input)
 
 ## Demo
 
@@ -34,9 +35,13 @@ See the [Documentation](https://metanov.github.io/gold-password-input/) for more
 
 ## Contributing
 
-TODO PG
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 ## License
 
-TODO PG
+MIT License © Pascal Gula
 

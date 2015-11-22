@@ -1,7 +1,7 @@
 {
   "name": "gold-password-input",
-  "version": "0.4.1",
-  "description": "A password input field with optional strength meter addon",
+  "version": "0.8.0",
+  "description": "An input element with Material Design that allows password with an optional strength meter.",
   "authors": [
     "Pascal Gula aka MeTaNoV"
   ],
@@ -14,7 +14,8 @@
     "password",
     "input",
     "strength",
-    "meter"
+    "meter",
+    "zxcvbn"
   ],
   "main": "gold-password-input.html",
   "private": false,
