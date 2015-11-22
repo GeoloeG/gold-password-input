@@ -1,39 +1,42 @@
 [![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
 
-## &lt;gold-password-input&gt;
+## Demo
 
-`<gold-password-input>` is a single-line text field with Material Design styling for entering a password.
+[https://metanov.github.io/gold-password-input/](https://metanov.github.io/gold-password-input/)
 
-    <gold-password-input></gold-password-input>
+## Install
 
-It may include a Strength Meter based on [zxcvbn](https://github.com/dropbox/zxcvbn)
+Install the component using [Bower](http://bower.io/):
 
-    <gold-password-input strength-meter></gold-password-input>
+```sh
+$ bower install gold-password-input --save
+```
 
-It may include an optional label, which by default is "Password".
+## Usage
 
-    <gold-password-input label="Account Password"></gold-password-input>
+1. Import Custom Element:
 
-It may include a minLength and maxLength to restrict the length of the password
+```html
+<link rel="import" href="bower_components/gold-password-input/gold-password-input.html">
+```
 
-    <gold-password-input min-length="6" max-length="24"></gold-password-input>
+2. Use it:
 
-See `Polymer.PaperInputBehavior` for more API docs.
+```html
+<gold-password-input></gold-password-input>
+```
+or
+```html
+<gold-password-input strength-meter></gold-password-input>
+```
 
-### Validation
+See the [Documentation] for more options.
 
-It may include a pattern to validate the password.
+## Contributing
 
-    <gold-password-input pattern="[a-zA-Z1-9!/;:]*"></gold-password-input>
+TODO PG
 
-or use a validator as specified in `Polymer.PaperInputBehavior`
+## License
 
-The input can be automatically validated as the user is typing by using the `auto-validate` and `required` attributes. For manual validation, the element also has a `validate()` method, which returns the validity of the input as well as sets any appropriate error messages and styles.
-
-See `Polymer.PaperInputBehavior` for more API docs.
-
-### Styling
-
-See `Polymer.PaperInputContainer` for a list of custom properties used to
-style this element.
+TODO PG
 
