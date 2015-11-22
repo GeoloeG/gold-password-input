@@ -1,3 +1,4 @@
+[![Bower version](https://badge.fury.io/bo/gold-password-input.svg)](https://badge.fury.io/bo/gold-password-input)
 [![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
 [![Dependency Status](https://gemnasium.com/MeTaNoV/gold-password-input.svg)](https://gemnasium.com/MeTaNoV/gold-password-input)
 
