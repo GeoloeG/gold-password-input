@@ -30,7 +30,7 @@ or
 <gold-password-input strength-meter></gold-password-input>
 ```
 
-See the [Documentation] for more options.
+See the [Documentation](https://metanov.github.io/gold-password-input/) for more options.
 
 ## Contributing
 
