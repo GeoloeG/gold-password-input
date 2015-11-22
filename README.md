@@ -14,13 +14,13 @@ $ bower install gold-password-input --save
 
 ## Usage
 
-1. Import Custom Element:
+Import Custom Element:
 
 ```html
 <link rel="import" href="bower_components/gold-password-input/gold-password-input.html">
 ```
 
-2. Use it:
+And then use it:
 
 ```html
 <gold-password-input></gold-password-input>
