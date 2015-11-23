@@ -48,5 +48,5 @@ See the [Documentation](https://metanov.github.io/gold-password-input/) for more
 
 ## License
 
-MIT License © Pascal Gula
+[MIT License](http://opensource.org/licenses/MIT) © Pascal Gula
 
