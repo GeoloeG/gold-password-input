@@ -5,7 +5,6 @@
 [![Stories in Ready](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=ready&title=Ready)](http://waffle.io/MeTaNoV/gold-password-input)
 [![Stories in Progress](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/MeTaNoV/gold-password-input)
 [![Stories in Done](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=done&title=Done)](http://waffle.io/MeTaNoV/gold-password-input)
-[![Throughput Graph](https://graphs.waffle.io/MeTaNoV/gold-password-input/throughput.svg)](https://waffle.io/MeTaNoV/gold-password-input/metrics)
 
 ## Demo
 
@@ -50,4 +49,6 @@ See the [Documentation](https://metanov.github.io/gold-password-input/) for more
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT) © Pascal Gula
+
+[![Throughput Graph](https://graphs.waffle.io/MeTaNoV/gold-password-input/throughput.svg)](https://waffle.io/MeTaNoV/gold-password-input/metrics)
 
