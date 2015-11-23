@@ -1,12 +1,13 @@
 {
   "name": "gold-password-input",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "An input element with Material Design that allows password with an optional strength meter.",
   "authors": [
     "Pascal Gula aka MeTaNoV"
   ],
   "keywords": [
-    "web-components",
+    "web",
+    "component",
     "custom",
     "element",
     "polymer",

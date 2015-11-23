@@ -18,18 +18,25 @@
 </head>
 
 <body unresolved>
+  <!-- Shared validator custom element -->
   <gold-password-input-validator
     pattern="[a-zA-Z0-9]*">
   </gold-password-input-validator>
 
   <div class="vertical-section-container centered">
+
     <h4>Standard</h4>
+
     <div class="vertical-section">
+
       <gold-password-input></gold-password-input>
+
     </div>
 
     <h4>With Validation</h4>
+
     <div class="vertical-section">
+
       <gold-password-input 
         label='minlength="6", maxlength="24"'
         required 
@@ -48,21 +55,32 @@
         error-message="The password must only contains letters and digits" 
         >
       </gold-password-input>
+
     </div>
 
     <h4>With Strength Meter</h4>
+
     <div class="vertical-section">
+
       <gold-password-input
         label="With strength-meter"
         strength-meter
         >
       </gold-password-input>
+
       <gold-password-input
         label="With strength-meter and custom label"
         strength-meter
-        strength-meter-label="{VeryWeak: "VolksWagen", Weak: "Winner", Medium: "Meow", Strong: "Superman", VeryStrong: "VerSus"}"
-        >
+        strength-meter-labels='{
+          "Label": "Symbol", 
+          "None": "Nature", 
+          "VeryWeak": "VolksWagen", 
+          "Weak": "Winner", 
+          "Medium": "Meow", 
+          "Strong": "Superman", 
+          "VeryStrong": "VerSus"}'>
       </gold-password-input>
+
       <gold-password-input 
         label="With strength-meter and only letters and digits"
         required 
@@ -72,6 +90,7 @@
         error-message="The password must only contains letters and digits" 
         >
       </gold-password-input>
+
     </div>
 
   </div>
