@@ -1,11 +1,12 @@
 {
   "name": "gold-password-input",
   "version": "1.0.1",
-  "description": "An input element with Material Design that allows password with an optional strength meter.",
   "authors": [
     "Pascal Gula aka MeTaNoV"
   ],
+  "description": "An input element with Material Design that allows password with an optional strength meter.",
   "keywords": [
+    "web-components",
     "web",
     "component",
     "custom",
@@ -25,7 +26,7 @@
     "url": "git://github.com/MeTaNoV/gold-password-input.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/MeTaNoV/gold-password-input",
+  "homepage": "https://metanov.github.io/gold-password-input/",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.0",
