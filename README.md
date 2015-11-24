@@ -2,10 +2,6 @@
 [![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
 [![Dependency Status](https://gemnasium.com/MeTaNoV/gold-password-input.svg)](https://gemnasium.com/MeTaNoV/gold-password-input)
 
-[comment]: [![Stories in Ready](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=ready&title=Ready)](http://waffle.io/MeTaNoV/gold-password-input)
-[comment]: [![Stories in Progress](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/MeTaNoV/gold-password-input)
-[comment]: [![Stories in Done](https://badge.waffle.io/MeTaNoV/gold-password-input.svg?label=done&title=Done)](http://waffle.io/MeTaNoV/gold-password-input)
-
 ## Demo
 
 [https://metanov.github.io/gold-password-input/](https://metanov.github.io/gold-password-input/)
