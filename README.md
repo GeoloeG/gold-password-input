@@ -4,7 +4,7 @@
 
 ## Demo
 
-[https://metanov.github.io/gold-password-input/demo/](https://metanov.github.io/gold-password-input/demo/)
+[https://metanov.github.io/gold-password-input/](https://metanov.github.io/gold-password-input/components/gold-password-input/demo/)
 
 ## Install
 
