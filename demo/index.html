@@ -9,11 +9,18 @@
 
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../paper-styles/color.html">
+
     <link rel="import" href="../gold-password-input.html">
     <link rel="import" href="../gold-password-input-validator.html">
 
-    <link rel="stylesheet" href="../../paper-styles/paper-styles.html">
-    <link rel="import" href="../../paper-styles/demo-pages.html">
+    <style is="custom-style" include="demo-pages-shared-styles">
+      .vertical-section-container {
+        min-width: 480px;
+      }
+    </style>
   </head>
   <body unresolved>
     <!-- Shared validator custom element -->
@@ -23,63 +30,77 @@
 
     <div class="vertical-section-container centered">
       <h4>Standard</h4>
-      <div class="vertical-section">
-        <gold-password-input></gold-password-input>
-      </div>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input></gold-password-input>
+        </template>
+      </demo-snippet>
 
       <h4>With Validation</h4>
-      <div class="vertical-section">
-        <gold-password-input 
-          label='minlength="6", maxlength="24"'
-          required 
-          auto-validate 
-          minlength="6" 
-          maxlength="24"
-          error-message="The password must contain at least 6 characters" 
-          >
-        </gold-password-input>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input
+            label="minlength='6', maxlength='24'"
+            required
+            auto-validate
+            minlength="6"
+            maxlength="24"
+            error-message="The password must contain at least 6 characters">
+          </gold-password-input>
+        </template>
+      </demo-snippet>
 
-        <gold-password-input 
-          label='only letters and digits'
-          required 
-          auto-validate 
-          validator="gold-password-input-validator"
-          error-message="The password must only contains letters and digits" 
-          >
-        </gold-password-input>
-      </div>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input
+            label='only letters and digits'
+            required
+            auto-validate
+            validator="gold-password-input-validator"
+            error-message="The password must only contains letters and digits">
+          </gold-password-input>
+        </template>
+      </demo-snippet>
 
       <h4>With Strength Meter</h4>
-      <div class="vertical-section">
-        <gold-password-input
-          label="With strength-meter"
-          strength-meter
-          >
-        </gold-password-input>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input
+            label="With strength-meter"
+            strength-meter>
+          </gold-password-input>
+        </template>
+      </demo-snippet>
 
-        <gold-password-input
-          label="With strength-meter and custom label"
-          strength-meter
-          strength-meter-labels='{
-            "Label": "Symbol", 
-            "None": "Nature", 
-            "VeryWeak": "VolksWagen", 
-            "Weak": "Winner", 
-            "Medium": "Meow", 
-            "Strong": "Superman", 
-            "VeryStrong": "VerSus"}'>
-        </gold-password-input>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input
+            label="With strength-meter and custom label"
+            strength-meter
+            strength-meter-labels='{
+              "Label": "Symbol",
+              "None": "Nature",
+              "VeryWeak": "VolksWagen",
+              "Weak": "Winner",
+              "Medium": "Meow",
+              "Strong": "Superman",
+              "VeryStrong": "VerSus"}'>
+          </gold-password-input>
+        </template>
+      </demo-snippet>
 
-        <gold-password-input 
-          label="With strength-meter and only letters and digits"
-          required 
-          auto-validate
-          validator="gold-password-input-validator"
-          strength-meter
-          error-message="The password must only contains letters and digits" 
-          >
-        </gold-password-input>
-      </div>
+      <demo-snippet class="centered-demo">
+        <template>
+          <gold-password-input
+            label="With strength-meter and only letters and digits"
+            required
+            auto-validate
+            validator="gold-password-input-validator"
+            strength-meter
+            error-message="The password must only contains letters and digits">
+          </gold-password-input>
+        </template>
+      </demo-snippet>
     </div>
   </body>
 </html>
