@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/MeTaNoV/gold-password-input.svg?branch=master)](https://travis-ci.org/MeTaNoV/gold-password-input)
 [![Dependency Status](https://gemnasium.com/MeTaNoV/gold-password-input.svg)](https://gemnasium.com/MeTaNoV/gold-password-input)
 
+`<gold-password-input>` is an input element with Material Design that allows password with an optional strength meter and reveal functionality.
+
 ## Demo
 
 [https://metanov.github.io/gold-password-input/](https://metanov.github.io/gold-password-input/components/gold-password-input/demo/)
