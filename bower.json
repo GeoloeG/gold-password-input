@@ -43,7 +43,6 @@
     "paper-input": "PolymerElements/paper-input#^1.0.0",
     "paper-tooltip": "PolymerElements/paper-tooltip#^1.1.0",
     "paper-styles": "PolymerElements/paper-styles#^1.0.0",
-    "toggle-icon": "toggle-icon#^1.0.3",
     "zxcvbn": "zxcvbn#^4.2.0"
   },
   "devDependencies": {
