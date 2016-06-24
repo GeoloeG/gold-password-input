@@ -10,7 +10,7 @@ env:
     - secure: nh65tvhnhOrK05qKvDJKMV7Jm9yiCoG1wFkP3ZnqOHix9Ny+KmcTa41Bl6NXQdvYaMTFtzS7lMZX5cqIziyKyGWHVN30LzGMHJNz12fhcMi3nJ84trhQGcu/9qR9yDv16q9ouGlcz1VxnDOHaRAHnIKjLIbhN3aJtMtZBbnWihA=
 node_js: stable
 addons:
-  firefox: latest
+  firefox: '46.0'
   apt:
     sources:
       - google-chrome
@@ -18,4 +18,5 @@ addons:
       - google-chrome-stable
 script:
   - xvfb-run wct
+  - "if [ \"${TRAVIS_PULL_REQUEST}\" = \"false\" ]; then wct -s 'default'; fi"
 dist: trusty
