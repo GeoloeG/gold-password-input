@@ -130,23 +130,23 @@
 
     suite('strength-meter', function() {
 
-      test('input doesn\'t show strength meter addon, but not error addon', function() {
-        var input = fixture('strength-meter');
-        //input.value='1234';
-        forceXIfStamp(input);
+      // test('input doesn\'t show strength meter addon, but not error addon', function() {
+      //   var input = fixture('strength-meter');
+      //   //input.value='1234';
+      //   forceXIfStamp(input);
 
-        var container = Polymer.dom(input.root).querySelector('paper-input-container');
-        assert.ok(container, 'paper-input-container exists');
-        assert.isFalse(container.invalid);
+      //   var container = Polymer.dom(input.root).querySelector('paper-input-container');
+      //   assert.ok(container, 'paper-input-container exists');
+      //   assert.isFalse(container.invalid);
 
-        var error = Polymer.dom(input.root).querySelector('paper-input-error');
-        assert.notOk(error, 'paper-input-error exists');
-        //assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
+      //   var error = Polymer.dom(input.root).querySelector('paper-input-error');
+      //   assert.notOk(error, 'paper-input-error exists');
+      //   //assert.equal(getComputedStyle(error).visibility, 'hidden', 'error is visibility:hidden');
 
-        var strengthMeter = Polymer.dom(input.root).querySelector('gold-password-input-strength-meter');
-        assert.ok(strengthMeter, 'gold-password-input-strength-meter does not exists');
-        assert.equal(getComputedStyle(strengthMeter).visibility, 'visible', 'strength-meter is visibility:hidden');
-      });
+      //   var strengthMeter = Polymer.dom(input.root).querySelector('gold-password-input-strength-meter');
+      //   assert.ok(strengthMeter, 'gold-password-input-strength-meter does not exists');
+      //   assert.equal(getComputedStyle(strengthMeter).visibility, 'visible', 'strength-meter is visibility:hidden');
+      // });
 
     });
 
