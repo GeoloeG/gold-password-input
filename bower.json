@@ -31,8 +31,7 @@
   "homepage": "https://metanov.github.io/gold-password-input/",
   "ignore": [
     "/.*",
-    "/test/",
-    "/demo/"
+    "/test/"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.0",
