@@ -1,21 +1,24 @@
 language: node_js
 sudo: required
 before_script:
-  - npm install -g bower polylint web-component-tester
-  - bower install
-  - polylint
+  - npm install -g bower polymer-cli@next
+  - polymer install --variants
+  - sudo mv /usr/bin/google-chrome /usr/bin/google-chrome-old
+  - sudo mv /usr/bin/google-chrome-beta /usr/bin/google-chrome
 env:
   global:
-    - secure: TcDqx+YdNCa/DRQjdKt9dgYCPgXtPl2EZ7Nnv6bRvbcmUjW2eSr7Zwb+e0fO8wgwms/RqFaVx+u5jo7D1lnC4Ybcg1HKiMOvCyzY36MjF9oB/VKSEUC+p4tMVQfw1IZ/RmK3dD+WEWaoT/EKmNfctz7v5kR+yk2lZo44D9I7rrc=
-    - secure: nh65tvhnhOrK05qKvDJKMV7Jm9yiCoG1wFkP3ZnqOHix9Ny+KmcTa41Bl6NXQdvYaMTFtzS7lMZX5cqIziyKyGWHVN30LzGMHJNz12fhcMi3nJ84trhQGcu/9qR9yDv16q9ouGlcz1VxnDOHaRAHnIKjLIbhN3aJtMtZBbnWihA=
+    - secure: >-
+        TcDqx+YdNCa/DRQjdKt9dgYCPgXtPl2EZ7Nnv6bRvbcmUjW2eSr7Zwb+e0fO8wgwms/RqFaVx+u5jo7D1lnC4Ybcg1HKiMOvCyzY36MjF9oB/VKSEUC+p4tMVQfw1IZ/RmK3dD+WEWaoT/EKmNfctz7v5kR+yk2lZo44D9I7rrc=
+    - secure: >-
+        nh65tvhnhOrK05qKvDJKMV7Jm9yiCoG1wFkP3ZnqOHix9Ny+KmcTa41Bl6NXQdvYaMTFtzS7lMZX5cqIziyKyGWHVN30LzGMHJNz12fhcMi3nJ84trhQGcu/9qR9yDv16q9ouGlcz1VxnDOHaRAHnIKjLIbhN3aJtMtZBbnWihA=
 node_js: stable
 addons:
-  firefox: '46.0'
+  firefox: latest
   apt:
     sources:
       - google-chrome
     packages:
-      - google-chrome-stable
+      - google-chrome-beta
 script:
-  - xvfb-run wct
+  - xvfb-run polymer test
 dist: trusty
