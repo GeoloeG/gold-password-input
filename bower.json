@@ -1,6 +1,6 @@
 {
   "name": "gold-password-input",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "[Polymer 2.x] Input element with Material Design that allows password with an optional strength meter.",
   "authors": [
     "Pascal Gula aka MeTaNoV <pascal.gula@gmail.com>"
