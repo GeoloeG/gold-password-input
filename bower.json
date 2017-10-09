@@ -1,6 +1,6 @@
 {
   "name": "gold-password-input",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "[Polymer 2.x] Input element with Material Design that allows password with an optional strength meter.",
   "authors": [
     "Pascal Gula aka MeTaNoV <pascal.gula@gmail.com>"
@@ -43,7 +43,7 @@
     "paper-input": "PolymerElements/paper-input#^2.0.0",
     "paper-tooltip": "PolymerElements/paper-tooltip#^2.0.0",
     "paper-styles": "PolymerElements/paper-styles#^2.0.0",
-    "toggle-icon": "RoXus/toggle-icon#master",
+    "toggle-icon": "fxedel/toggle-icon#^1.2.1",
     "zxcvbn": "zxcvbn#^4.4.0"
   },
   "devDependencies": {
