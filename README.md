@@ -1,4 +1,7 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/GeoloeG/gold-password-input)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/GeoloeG/gold-password-input)  
+[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg?style=flat-square)](https://vaadin.com/directory/component/geoloeggold-password-input)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/geoloeggold-password-input.svg?style=flat-square)](https://vaadin.com/directory/component/geoloeggold-password-input)
+
 
 # `<gold-password-input>`
 
